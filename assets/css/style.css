@@ -1,0 +1,70 @@
+:root {
+    --dark: rgb(2, 43, 2);
+    --light: beige;
+}
+
+/* universal selectors */
+* {
+    /* outline: red dotted; */
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* header selectors */
+header{
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-content: space-between;
+    background-color: var(--dark);
+    color: var(--light);
+}
+
+header h1{
+    display: inline-block;
+    font-size: 50px;
+}
+header nav{
+    margin-top: 10px;
+    margin-right: 10px;
+    font-size: 23px;
+}
+
+header nav ul li{
+    display: inline-block;
+    justify-content: space-between;
+    text-decoration: underline;
+    margin: 10px;
+    
+}
+
+/* Figure selectors */
+figure {
+    /* display:flex; */
+    height: 400px;
+    width: 100%;
+    margin: auto;
+    background-image: url(../images/Figure\ BR.png);
+    background-size: cover;
+    background-position: center;
+    color: beige;
+    text-decoration: underline;
+}
+
+
+
+figure img{
+    display:flex;
+    justify-content: flex-start;
+    width: 225px;
+
+}
+figure h2{
+    justify-content: flex-end;
+}
+
+/* Main selectors */
+
+main {
+    background-color: beige;
+}
