@@ -1,6 +1,7 @@
 :root {
     --dark: rgb(2, 43, 2);
     --light: beige;
+    --hover:  rgb(208, 146, 12);
 }
 
 /* universal selector -------------------------------------*/
@@ -15,6 +16,10 @@
 /* body selctor ------------------------------------------*/
 body {
     background-color: var(--light);
+}
+
+a:hover{
+    background-color:var(--hover);
 }
 
 /* header selectors ------------------------------------- */
@@ -89,7 +94,6 @@ figure h2{
 /* Main selectors ------------------------------------- */
 
 main {
-    /* display:flex; */
     background-color: var(--light);
     padding: 5px;
 }
@@ -120,23 +124,31 @@ section ul {
     list-style-type: none;
 }
 
+section h3{
+    color: var(--light);
+    background-color:rgba(2, 43, 2, 0.687);
+}
+
 
 /* work section -------------------------------------- */
 
 #projects {
     display: flex;
     flex-wrap: wrap;
+}
 
-
+#projects a :hover{
+    background-color:var(--hover);
 }
 
 #projects a {
     background-size: cover;
     background-position: center;
-    flex: 1 1 50%;
+    flex: 1 1 45%;
     height: 200px;
+    margin-top: 30px;
+    margin-right: 30px;
 }
-
 
 #projects a:first-child{
     flex:1 1 100%;
@@ -183,5 +195,4 @@ section ul {
     justify-content: space-between;
     text-decoration: underline;
     margin: 10px;
-    
 }

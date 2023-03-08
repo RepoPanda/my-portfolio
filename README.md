@@ -2,61 +2,22 @@
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
+This project was created to extend a portfolio of work samples to any potential employer. This way, the potential employer, can review samples of my work and assess whether I am a good candidate for an open position.
 
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
+Css skillsets with flexbox and JQery were practiced and learned through the duration of this project.
 
-## Table of Contents (Optional)
+## Table of Contents
+Please refer to the following image that shows the web application's appearance and functionality:
 
-If your README is long, add a table of contents to make it easy for users to find what they need.
+![Webpage screenshot](../my-portfolio/assets/images/README%20WPSS.png)
 
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
 
 ## Installation
-
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+N/A 
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+To access website please visit https://repopanda.github.io/my-portfolio . To access code restructuring notes, please visit site and open the Chrome DevTools by pressing Command+Option+I (macOS) or Control+Shift+I (Windows). A console panel should open either below or to the side of the webpage in the browser.
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
-
-## Credits
-
-List your collaborators, if any, with links to their GitHub profiles.
-
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
-
-## License
-
-N/A
-
-## Badges
-
-N/A
-
-## Features
-
-If your project has a lot of features, list them here.
-
-## How to Contribute
-
-If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
-
-## Tests
-
-Go the extra mile and write tests for your application. Then provide examples on how to run them here.
+To access repository please visit https://github.com/RepoPanda/my-portfolio .
 
